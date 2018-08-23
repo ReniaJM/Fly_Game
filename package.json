@@ -1,6 +1,6 @@
 {
-  "name": "gulptemplatka",
-  "version": "1.0.2",
+  "name": "gulptemplate",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ansi-colors": "^2.0.1",
     "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
@@ -17,5 +16,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "node-notifier": "^5.2.1"
+  },
+  "dependencies": {
+    "webpack": "4",
+    "webpack-cli": "2"
   }
 }
